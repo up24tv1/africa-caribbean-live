@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050508;
+  --foreground: #f5f0e8;
+  --green: #009A44;
+  --gold: #F7D618;
+  --red: #CE1021;
+  --black: #0A0A0A;
+  --caribbean-teal: #00B4D8;
+  --surface: rgba(12, 12, 20, 0.85);
+  --glass-bg: rgba(17, 17, 17, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-gold: rgba(247, 214, 24, 0.3);
+  --text-dim: rgba(245, 240, 232, 0.55);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-green: var(--green);
+  --color-gold: var(--gold);
+  --color-red: var(--red);
+  --color-teal: var(--caribbean-teal);
+  --color-surface: var(--surface);
+  --color-glass-bg: var(--glass-bg);
+  --color-glass-border: var(--glass-border);
+  --color-glass-border-gold: var(--glass-border-gold);
+  --color-text-dim: var(--text-dim);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Glassmorphism */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-gold {
+  background: rgba(247, 214, 24, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border-gold);
+}
+
+/* Glow effects */
+.glow-green {
+  box-shadow: 0 0 40px rgba(0, 154, 68, 0.15), 0 0 80px rgba(0, 154, 68, 0.08);
+}
+
+.glow-gold {
+  box-shadow: 0 0 40px rgba(247, 214, 24, 0.15), 0 0 80px rgba(247, 214, 24, 0.08);
+}
+
+.glow-teal {
+  box-shadow: 0 0 40px rgba(0, 180, 216, 0.12), 0 0 80px rgba(0, 180, 216, 0.06);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--green) 0%, var(--gold) 50%, var(--red) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-teal {
+  background: linear-gradient(135deg, var(--caribbean-teal) 0%, var(--green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated background */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Pulse animation for live badge */
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-live {
+  animation: pulse-live 1.5s ease-in-out infinite;
 }
