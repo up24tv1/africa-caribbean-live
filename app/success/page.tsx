@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const DISCORD_INVITE = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL || "#";
+const DISCORD_INVITE = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL || "https://discord.gg/Vt6P4BFD";
 
 const steps = [
   {

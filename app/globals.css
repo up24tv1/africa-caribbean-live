@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050508;
+  --background: #020617;
   --foreground: #f5f0e8;
   --green: #009A44;
   --gold: #F7D618;
@@ -96,4 +96,14 @@ body {
 
 .animate-pulse-live {
   animation: pulse-live 1.5s ease-in-out infinite;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(249, 115, 22, 0.3);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
