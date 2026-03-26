@@ -12,36 +12,36 @@ interface Tier {
 const tiers: Tier[] = [
   {
     name: "Supporter",
-    amount: "$1",
-    cents: 100,
-    description:
-      "Access the global watch room, text channels, and voice rooms.",
-    link: "https://buy.stripe.com/4gM28r7E251Y5iIcGO4gg0o",
-  },
-  {
-    name: "Super Fan",
-    amount: "$3",
-    cents: 300,
-    description:
-      "Everything in Supporter + highlighted role and prediction game entry.",
-    link: "https://buy.stripe.com/aFa28r4rQbqmaD2fT04gg0p",
-  },
-  {
-    name: "Fam",
     amount: "$5",
     cents: 500,
     description:
-      "Everything in Super Fan + halftime stage priority and pinned shoutout.",
+      "Access the global watch room, text channels, and voice rooms. Supporter badge in Discord.",
+    link: "https://buy.stripe.com/7sY8wPe2qeCy5iI0Y64gg0s",
+  },
+  {
+    name: "Super Fan",
+    amount: "$15",
+    cents: 1500,
+    description:
+      "Everything in Supporter + priority voice room access and highlighted role.",
+    link: "https://buy.stripe.com/3cI7sL0bA2TQdPebCK4gg0t",
+  },
+  {
+    name: "Fam",
+    amount: "$30",
+    cents: 3000,
+    description:
+      "Everything in Super Fan + exclusive pre-match briefing and halftime stage priority.",
     featured: true,
-    link: "https://buy.stripe.com/fZu00jgay9ie5iI8qy4gg0q",
+    link: "https://buy.stripe.com/00w7sL1fEbqm3aA4ai4gg0u",
   },
   {
     name: "Captain",
-    amount: "$10",
-    cents: 1000,
+    amount: "$50",
+    cents: 5000,
     description:
-      "Everything in Fam + Donation Wall feature, digital badge, and free next event.",
-    link: "https://buy.stripe.com/8x2dR94rQ3XUfXm9uC4gg0r",
+      "All perks + custom role, pinned shoutout during match, and digital badge.",
+    link: "https://buy.stripe.com/9B6dR9e2q2TQ9yY22a4gg0v",
   },
 ];
 

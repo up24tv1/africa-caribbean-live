@@ -1,0 +1,32 @@
+{
+  "prematch": [
+    {"title": "Afrobeats & Dancehall Warmup Mix", "url": "https://open.spotify.com/playlist/37i9dQZF1DX4YKpVPoEBTx", "vibe": "Get the stadium jumping"},
+    {"title": "Caribbean Vibes Playlist", "url": "https://open.spotify.com/playlist/37i9dQZF1DX4APEcsN9aPR", "vibe": "Island energy"},
+    {"title": "African Giants Mix", "url": "https://open.spotify.com/playlist/37i9dQZF1DWYkaDif7Ztbx", "vibe": "Continental pride"}
+  ],
+  "goal_home": [
+    {"title": "Celebration anthem", "url": "https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH", "vibe": "HOME TEAM SCORES!"},
+    {"title": "Stadium erupts", "url": "https://open.spotify.com/track/1BxfuPKGuaTgP7aM0Bbdwr", "vibe": "THE ROOF IS OFF!"},
+    {"title": "Victory dance", "url": "https://open.spotify.com/track/5IgjP7X4th6nMNDh4akUHb", "vibe": "Dance! Dance! Dance!"}
+  ],
+  "goal_away": [
+    {"title": "Respect the opponent", "url": "https://open.spotify.com/track/3DXncPQOG4VBw3QHh3S817", "vibe": "Credit where it's due"},
+    {"title": "The comeback starts now", "url": "https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT", "vibe": "We go again!"}
+  ],
+  "halftime": [
+    {"title": "Chill Afrobeats", "url": "https://open.spotify.com/playlist/37i9dQZF1DX4YKpVPoEBTx", "vibe": "Catch your breath"},
+    {"title": "Reggae Roots", "url": "https://open.spotify.com/playlist/37i9dQZF1DXan38dNStEam", "vibe": "Cool down vibes"}
+  ],
+  "victory": [
+    {"title": "Champions anthem", "url": "https://open.spotify.com/track/6JV2JOEocMbcqeGsUmyVgz", "vibe": "WE DID IT!"},
+    {"title": "Celebration mix", "url": "https://open.spotify.com/playlist/37i9dQZF1DX4YKpVPoEBTx", "vibe": "Party time!"}
+  ],
+  "defeat": [
+    {"title": "Heads held high", "url": "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v", "vibe": "We'll be back stronger"},
+    {"title": "Respect playlist", "url": "https://open.spotify.com/playlist/37i9dQZF1DX4SBhb3fqCJd", "vibe": "Football is beautiful"}
+  ],
+  "hype": [
+    {"title": "High energy", "url": "https://open.spotify.com/track/3a1lNhkSLSkpJE4MSHpDu9", "vibe": "Let's go!"},
+    {"title": "Stadium anthem", "url": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS", "vibe": "Crowd favorite"}
+  ]
+}
