@@ -57,7 +57,7 @@ export default function TribeSelector() {
           <button
             key={role.id}
             onClick={() => setSelectedRole(role.id)}
-            className={`group relative overflow-hidden p-8 rounded-3xl border-2 transition-all duration-500 text-left flex flex-col h-full ${
+            className={`group relative overflow-hidden p-8 rounded-3xl border-2 transition-all duration-500 text-left flex flex-col h-full card-3d ${
               selectedRole === role.id
                 ? "border-white shadow-[0_0_40px_rgba(255,255,255,0.1)] scale-[1.05]"
                 : "border-white/5 hover:border-white/20 bg-white/5"
